@@ -4,7 +4,7 @@
 python3 -m venv env
 pip install -r requirements.txt
 ```
-3. Update client_id and client_secrete from google app in `app.py`.
+3. Update client_id and client_secret from google app in `app.py`.
 4. Run/Server python app.
 ```
 cd app
