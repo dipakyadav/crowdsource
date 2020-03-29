@@ -38,8 +38,17 @@ pip install flask_csv
 cd app
 python3 app.py
 ```
-8. Go to [https://127.0.0.1:5000/](https://127.0.0.1:5000/) to view the app.
+8. Go to [https://127.0.0.1:5000/](https://127.0.0.1:5000/) to view the app.  
+<!-- Doesn't show same: or [http://localhost:5000/](http://localhost:5000/) -->
 
+You'll probably need to click "Advanced" to view insecurely locally.  Might not work at all.  
+Let Loren know what errors you receive, and what needs to be modified/added above. 
+
+## For MapsForUs Auth
+
+To do: [Config to avoid Unverified apps error](https://support.google.com/cloud/answer/7454865) - To include email in [MapsForUs comment](../community/) in our copy of the MapsforUS Google Sheet Template.
+
+<!--
 Stuck at this point.  Tried using http://localhost:5000  
 Tried Chrome. Tried Brave browser.  
 Next try getting a different Google Auth.  
@@ -49,3 +58,4 @@ Next try getting a different Google Auth.
  [&#x2714;] Store login details in sqlitedb - to be changed later.  
  [&#x2714;] Show/Hide edit menu on Login/Logout.  
  [ &nbsp; ] Edit form.  
+-->
