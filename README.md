@@ -14,9 +14,16 @@ python3 -m venv env
 pip install -r requirements.txt
 ```
 
-####3. Update client\_id and client\_secret from google app in "app.py".
+####3. Add "app/app.py" to your .gitignore file so you don't deploy your keys.
 
-####4. Run/Server python app.
+####4. Add CLIENT\_ID and CLIENT\_SECRET from your Google project in "app.py".
+
+####5. Add your GOOGLE\_SHEET\_URL to "app.py"
+
+####6. Send yourself an email with these three values incase you loose your local clone.  
+
+####7. Run/Server python app.
+
 ```
 cd app
 python3 app.py

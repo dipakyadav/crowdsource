@@ -10,6 +10,7 @@
 <img src="img/get-google-keys.png" style="width:100%;max-width:1000px">  
 
 4. Make note of your GOOGLE\_CLIENT\_ID and GOOGLE\_CLIENT\_SECRET.  
+<br>
 
 ---
 [Run Setup](../)
