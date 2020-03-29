@@ -1,6 +1,9 @@
 
 # Crowdsource Editor with Google Sheets
 
+We're working on a process to edit rows in a [MapsForUs Google Sheet](../community/map/mapsforus) using REST/CRUD after logging into a Google account within a brower.  An HTML list pulled from the sheet will allow editors to find and update directory listings, including the [Georgia EPA recycling center datasets](https://data.georgia.org/#recycling).  
+
+
 ## A. Get your Auth IDs
 
 [Create a Google Project or Use Existing Project IDs](editor)  
