@@ -6,7 +6,8 @@ We're working on a process to edit rows in a [MapsForUs Google Sheet](../communi
 
 ## A. Clone this Repo
 
-You'll be adding private keys, then running a local Python Flask server.
+You'll be adding private keys, then running a local Python Flask server.  
+Clone the repo from <a href="https://github.com/modelearth/crowdsource">github.com/modelearth/crowdsource</a>  
 
 ## B. Get your Auth IDs
 
@@ -82,8 +83,13 @@ To do: [Config to avoid Unverified apps error](https://support.google.com/cloud/
 Also did for gsample
 
 Added model.earth as authorized domain on "OAuth consent screen"
+(Only allows top level domain, like model.earth)
+
 https://console.developers.google.com/apis/credentials/consent/edit?project=georgia-directory&duration=P1D
 
+And here too (verify via HTML):
+
+https://console.developers.google.com/apis/credentials/domainverification?project=georgia-directory
 
 -->
 
