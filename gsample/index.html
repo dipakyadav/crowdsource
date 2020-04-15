@@ -6,9 +6,14 @@
   </head>
   <body>
 
+    <!--
+
+    https://docs.google.com/spreadsheets/d/1JDD36dOvy5TWsmfg0g4r8x9MMyuidRgpJAdDFD9HiTQ/edit#gid=1284085090
+    -->
 
     Source: <a href="https://developers.google.com/sheets/api/quickstart/js">https://developers.google.com/sheets/api/quickstart/js</a><br><br>
 
+    Google Sheet: 
 
     When viewing via these:<br>
     https://model.earth/crowdsource/gsample/<br>
@@ -17,7 +22,9 @@
 
     Error: The API Key and the authentication credential are from different projects.<br><br>
 
-
+    Note, the "apiKey: API_KEY," line is optional.<br><br>
+    <hr>
+    
     <p>Google Sheets API Quickstart</p>
 
     <!--Add buttons to initiate auth sequence and sign out-->
@@ -29,7 +36,7 @@
     <script type="text/javascript">
       // Client ID and API key from the Developer Console
       var CLIENT_ID = '573354869595-has3f2m227unctafuftod793j5t9oia1.apps.googleusercontent.com';
-      var API_KEY = 'AIzaSyBsg_s4DItoUT3PFAVykVwptpAwEV8-Mqw';
+      var API_KEY = 'AIzaSyBMKgvChZs_lMzw65sRAJGDHSl-T3J0uvY'; // Browser Key
 
       // Array of API discovery doc URLs for APIs used by the quickstart
       var DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
@@ -116,11 +123,13 @@
        * Print the names and majors of students in a sample spreadsheet:
        * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
 
+
+        1JDD36dOvy5TWsmfg0g4r8x9MMyuidRgpJAdDFD9HiTQ
        * 
        */
       function listMajors() {
         gapi.client.sheets.spreadsheets.values.get({
-          spreadsheetId: '1JDD36dOvy5TWsmfg0g4r8x9MMyuidRgpJAdDFD9HiTQ',
+          spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
           range: 'Class Data!A2:E',
         }).then(function(response) {
           var range = response.result;

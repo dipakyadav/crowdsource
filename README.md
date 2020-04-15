@@ -3,11 +3,12 @@
 
 We're working on a process to edit rows in a [MapsForUs Google Sheet](../community/map/mapsforus) using REST/CRUD after logging into a Google account within a brower.  An HTML list pulled from the sheet will allow editors to find and update directory listings, including the [Georgia EPA recycling center datasets](https://data.georgia.org/#recycling).  
 
+Here's a <a href="gsample">list displayed from a Google Sheet after logging in</a>.  
 
 ## A. Clone this Repo
 
 You'll be adding private keys, then running a local Python Flask server.  
-Clone the repo from <a href="https://github.com/modelearth/crowdsource">github.com/modelearth/crowdsource</a>  
+Clone from <a href="https://github.com/modelearth/crowdsource">github.com/modelearth/crowdsource</a>  
 
 ## B. Get your Auth IDs
 
@@ -64,7 +65,7 @@ Even after installing locally, you will see a browser warning indicating that th
 Generate a self-signed ssl with openssl - We need to document this procedure.  
 
 Skip this step for now and use the "Advanced" button to view locally.  
-<span style="background-color: #FFFF00">(Only works on Safari. Not working on Chrome or Brave on Mac.)</span>  
+<span style="background-color: #FFFF00">("Advanced" button only works on Safari. Not working on Chrome or Brave on Mac.)</span>  
 
 Viewing at: <a href="https://127.0.0.1:5000">https://127.0.0.1:5000</a>   
 
