@@ -8,7 +8,13 @@ We're working on a process to edit rows in a [MapsForUs Google Sheet](../communi
 
 [Create a Google Project or Use Existing Project IDs](editor)  
 
-## B. Install the Editor
+## B. Self-signed SSL
+
+Generate a self-signed ssl with openssl - We need to docment this procedure here.  
+
+Skip this step for now and choose the insecure Advanced link to view locally.  
+
+## C. Install the Editor
 
 1. Add CLIENT\_ID and CLIENT\_SECRET from your Google project in "app.py".
 
