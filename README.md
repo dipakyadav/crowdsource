@@ -1,7 +1,12 @@
 
 # Crowdsource Editor with Google Sheets
 
-We're working on a process to edit rows in a [MapsForUs Google Sheet](../community/map/mapsforus) using REST/CRUD after logging into a Google account within a brower.  An HTML list pulled from the sheet will allow editors to find and update directory listings, including the [Georgia EPA recycling center datasets](https://data.georgia.org/#recycling).  
+The most recent javascript-only work resides in [Google-OneTap](../community/resources/google-onetap/).  
+
+It may be possible to duplicate some of the following server-side process using this Python 2.7 
+<a href="https://codelabs.developers.google.com/codelabs/credential-management-api/index.html">Auto Sign-in with the Credential Management API</a>.
+
+We're working toward a process to edit rows in a [MapsForUs Google Sheet](../community/map/mapsforus) using REST/CRUD after logging into a Google account within a brower.  An HTML list pulled from the sheet will allow editors to find and update directory listings, including the [Georgia EPA recycling center datasets](https://data.georgia.org/#recycling).  
 
 Here's a <a href="gsample">list displayed from a Google Sheet after logging in</a>.  
 
