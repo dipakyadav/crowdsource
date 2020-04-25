@@ -3,10 +3,18 @@
   <head>
     <title>Google Sheets API Quickstart</title>
     <meta charset="utf-8" />
+
+    <!-- might not need https://developers.google.com/identity/sign-in/web -->
+    <!--
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="573354869595-has3f2m227unctafuftod793j5t9oia1.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    -->
+
   </head>
   <body>
 
-    The most recent work resides in our 
+    The most recent javascript-only work resides in our 
     <a href="../../community/resources/google-onetap/">Google-OneTap plus Google API Client for Javascript</a> demo.
     <br><br>
 
@@ -104,6 +112,8 @@
           authorizeButton.style.display = 'none';
           signoutButton.style.display = 'block';
 
+          // https://developers.google.com/identity/sign-in/web
+          // https://developers.google.com/web/fundamentals/security/credential-management/retrieve-credentials
           //if (auth2.isSignedIn.get()) {
           /*
             var profile = auth2.currentUser.get().getBasicProfile();
