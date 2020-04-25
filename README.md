@@ -31,20 +31,9 @@ python3 -V
 
 3. Within your crowdsource root directory run commands:
 ```
-python3 -m venv env
-. env/bin/activate
-pip install --upgrade pip
-pip install Flask
-pip install flask_csv
-pip install -r requirements.txt
+chmod +x setup.sh
+./setup.sh
 ```
-<span style="background-color: #FFFF00">Why is there a period in: ". env/bin/activate"?</span>  
-
-<span style="background-color: #FFFF00">Can the following reside in requirements.txt instead?:</span>  
-
-pip install Flask  
-pip install flask_csv  
-<br>
 
 4. Run/Server python app.
 
