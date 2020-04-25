@@ -67,7 +67,7 @@ This does not work in Chrome or Brave (tested on a Mac).
 
 Even after installing locally, you will see a browser warning indicating that the certificate should not be trusted. You can proceed past this warning to view the encrypted site. 
 
-Generate a self-signed ssl with openssl - We need to document this procedure.  
+Generate a self-signed ssl with openssl - <span style="background-color: #FFFF00">We need to document this procedure or link to an external page with steps.</span>  
 
 Skip this step for now and use the "Advanced" button to view locally.  
 <span style="background-color: #FFFF00">("Advanced" button only works on Safari. Not working on Chrome or Brave on Mac.)</span>  
